@@ -1,5 +1,6 @@
 package main.java.files4blockchain;
 
+import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 
 public class SHA256Controller {
@@ -8,9 +9,9 @@ public class SHA256Controller {
         try
         {
             MessageDigest digest = MessageDigest.getInstance("SHA-256");
-            byte[] hash = digest.digest(data.getBytes("UTF-8"));
+            byte[] hash = digest.digest(data.getBytes(StandardCharsets.UTF_8));
 
-            StringBuffer hexString = new StringBuffer();
+            StringBuilder hexString = new StringBuilder();
 
             for(int i=0; i<hash.length; i++)
             {
