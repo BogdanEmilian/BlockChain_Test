@@ -7,7 +7,7 @@ public class Constants {
         
     }
 
-    public static final Integer difficulty = 1;
-    public static final Integer reward = 5;
-    public static final String genesisHash = "0000000000000000000000000000000000000000000000000000000000000000";
+    public static final Integer DIFFICULTY = 1;
+    public static final Integer REWARD = 5;
+    public static final String GENESIS_HASH = "0000000000000000000000000000000000000000000000000000000000000000";
 }

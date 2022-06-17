@@ -3,6 +3,7 @@ package main.java.files4blockchain;
 import java.util.Date;
 
 public class Block {
+    
     private int id;
     private int nonce;
     private long timestamp;
